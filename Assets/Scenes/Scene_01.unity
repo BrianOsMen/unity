@@ -245,12 +245,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 3937178}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc1d7846898619d4eb5a74a7b6d04271, type: 3}
+  m_Script: {fileID: 11500000, guid: 089fefa0a9a3bdd4499fdf27000cf532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isEnemy: 0
   isTrigger: 0
-  enemyClass: 0
+  enemyClass: 1
   consonants: BCDFGHJKLMNPQRSTVWXYZ
   vowels: AEIOU
   healt: 100
@@ -570,12 +570,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 813461445}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09cc532f57603274fa161e749f394ff2, type: 3}
+  m_Script: {fileID: 11500000, guid: 089fefa0a9a3bdd4499fdf27000cf532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isEnemy: 0
   isTrigger: 0
-  enemyClass: 0
+  enemyClass: 2
   consonants: BCDFGHJKLMNPQRSTVWXYZ
   vowels: AEIOU
   healt: 100
@@ -784,12 +784,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 971423764}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8767a658bd02fba40b38904e61c56f62, type: 3}
+  m_Script: {fileID: 11500000, guid: 089fefa0a9a3bdd4499fdf27000cf532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isEnemy: 0
   isTrigger: 0
-  enemyClass: 0
+  enemyClass: 3
   consonants: BCDFGHJKLMNPQRSTVWXYZ
   vowels: AEIOU
   healt: 100
@@ -978,6 +978,7 @@ GameObject:
   - component: {fileID: 1906490713}
   - component: {fileID: 1906490715}
   - component: {fileID: 1906490716}
+  - component: {fileID: 1906490717}
   m_Layer: 0
   m_Name: Player1
   m_TagString: Untagged
@@ -1031,6 +1032,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fc99fd5168d3cb43bc79221a3a613c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  c: {fileID: 0}
   player: {fileID: 1906490713}
   horizontalMove: 0
   verticalMove: 0
@@ -1048,6 +1050,23 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.4897261, y: 0.2, z: 1.3172188}
   m_Center: {x: 0.013602734, y: -0.5, z: 1.1984565}
+--- !u!114 &1906490717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1906490712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc5b45cea3fdc4419b070791a47346e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  c: {fileID: 0}
+  player: {fileID: 0}
+  horizontalMove: 0
+  verticalMove: 0
+  playerSpeed: 0
 --- !u!1 &2068659176
 GameObject:
   m_ObjectHideFlags: 0

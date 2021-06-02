@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PhotoKidController : MonoBehaviour
 {
-    private Enemys c;
+
+    public Enemys c;
     public CharacterController player;
     public float horizontalMove;
     public float verticalMove;
@@ -37,8 +38,6 @@ public class PhotoKidController : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         c = other.GetComponent<Enemys>();
-        if(c != null)
-            Debug.Log(c.enemyClass);
     }
 
 }
