@@ -8,6 +8,7 @@ public class EnemyClass3 : Enemys
     // Start is called before the first frame update
     void Start()
     {
+        isEnemy = true;
         enemyClass = 3;
     }
 

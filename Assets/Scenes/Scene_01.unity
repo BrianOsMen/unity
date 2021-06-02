@@ -249,9 +249,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEnemy: 0
+  isTrigger: 0
   enemyClass: 0
   consonants: BCDFGHJKLMNPQRSTVWXYZ
   vowels: AEIOU
+  healt: 100
 --- !u!1 &527432668
 GameObject:
   m_ObjectHideFlags: 0
@@ -572,9 +574,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEnemy: 0
+  isTrigger: 0
   enemyClass: 0
   consonants: BCDFGHJKLMNPQRSTVWXYZ
   vowels: AEIOU
+  healt: 100
 --- !u!54 &813461447
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -784,9 +788,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEnemy: 0
+  isTrigger: 0
   enemyClass: 0
   consonants: BCDFGHJKLMNPQRSTVWXYZ
   vowels: AEIOU
+  healt: 100
 --- !u!54 &971423766
 Rigidbody:
   m_ObjectHideFlags: 0
